@@ -61,6 +61,39 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     "tooltip": "%{BKY_LOGIC_BOOLEAN_TOOLTIP}",
     "helpUrl": "%{BKY_LOGIC_BOOLEAN_HELPURL}"
   },
+  // move block
+  {
+    "type": "move",
+    "message0": "move %1 %2 by %3",
+    "args0": [
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "input1",
+        "options": [
+          [
+            "forward",
+            "forward"
+          ],
+          [
+            "backward",
+            "backward"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0
+      }
+    ],
+    "inputsInline": true,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": ""
+  },
   // Block for if/elseif/else condition.
   {
     "type": "controls_if",

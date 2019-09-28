@@ -6,8 +6,6 @@
   <script src="../../blockly_compressed.js"></script>
   <script src="../../blocks_compressed.js"></script>
   <script src="../../msg/js/en.js"></script>
-  
-  
   <style>
     body {
       background-color: #fff;
@@ -20,17 +18,25 @@
   </style>
 </head>
 <body>
-  
+  <h1><a href="https://developers.google.com/blockly/">Blockly</a> &gt;
+    <a href="../index.html">Demos</a> &gt; Fixed Blockly</h1>
 
-  <div id="blocklyDiv"  style="height: 480px; width: 600px;">
+  <p>This is a simple demo of injecting Blockly into a fixed-sized 'div' element.</p>
 
-  </div>
+  <p>&rarr; More info on <a href="https://developers.google.com/blockly/guides/configure-blockly/web/fixed-size">injecting fixed-sized Blockly</a>&hellip;</p>
+
+  <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
 
   <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-    <block type="move"></block>
     <block type="controls_if"></block>
+    <block type="logic_compare"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="math_number">
+      <field name="NUM">123</field>
+    </block>
+    <block type="math_arithmetic"></block>
+    <block type="text"></block>
     <block type="text_print"></block>
-   
   </xml>
 
   <script>

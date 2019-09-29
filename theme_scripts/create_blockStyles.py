@@ -42,8 +42,8 @@ import math
 import json
 import sys
 
-HSV_SATURATION = 1
-BRIGHTNESS_VAL = .95 * 255
+HSV_SATURATION = 0.45
+BRIGHTNESS_VAL = .65 * 255
 LIGHT_FACTOR = .8
 DARK_FACTOR = .2
 
